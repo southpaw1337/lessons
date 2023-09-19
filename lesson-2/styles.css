@@ -1,0 +1,22 @@
+h1 {
+  color: blue;
+}
+
+.red-heading {
+  color: green;
+  border: 4px dotted pink;
+}
+
+#hello {
+  color: red;
+}
+
+.link {
+  color: black;
+  font-size: 30px;
+}
+
+.link:hover {
+  color: blue;
+  font-size: 35px;
+}
