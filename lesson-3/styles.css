@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  display: flex;
+}
+
+.box {
+  font-size: 30px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.A {
+  background-color: red;
+}
+
+.B {
+  background-color: green;
+}
+
+.C {
+  background-color: blue;
+}
