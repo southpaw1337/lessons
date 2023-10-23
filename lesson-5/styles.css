@@ -5,17 +5,18 @@
 }
 body {
   font-family: "Manrope";
+  background-color: #292929;
 }
-.content {
+main {
   width: 100%;
   position: absolute;
   display: flex;
-  background-color: #292929;
   height: 100vh;
   top: 0;
   left: 0;
   z-index: -1;
   padding-top: 80px;
+  justify-content: center;
 }
 header {
   display: flex;
@@ -41,4 +42,68 @@ header div {
 }
 .header__link {
   margin-left: 56px;
+}
+h1 {
+  display: flex;
+  color: #dedede;
+  font-size: 54px;
+  line-height: 64px;
+}
+h3 {
+  color: #959595;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+.portfolio__img {
+  height: 400px;
+  width: 400px;
+}
+.portfolio__img img {
+  height: auto;
+  width: 100%;
+  border: 0 solid transparent;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 247px;
+  margin-top: 159px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+.button1 {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #9d9d9d;
+  padding: 16px 48px;
+  width: 294px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 88px;
+}
+.button2 {
+  margin-top: 145px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  text-transform: uppercase;
+  color: #dedede;
+  padding: 8px;
+  width: 182px;
+}
+button {
+  cursor: pointer;
 }
