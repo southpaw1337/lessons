@@ -107,3 +107,18 @@ h3 {
 button {
   cursor: pointer;
 }
+.works {
+  display: grid;
+  grid-template-columns: 612px 612px;
+  grid-template-rows: repeat(2, 888px);
+  gap: 24px;
+  margin-top: 96px;
+}
+.works img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.works img:nth-child(2n) {
+  margin-top: 140px;
+}
